@@ -1,0 +1,28 @@
+def main():
+    print("Starting The Code Challenge")
+
+    try:
+        num = int(input("Enter a number: "))
+        print("You entered:", num)
+    except ValueError:
+        print("Invalid input.")
+
+    try:
+        x = int(input("Enter a numerator: "))
+        y = int(input("Enter a denominator: "))
+        print("Result:", x / y)
+    except (ZeroDivisionError, ValueError):
+        print("Math error.")
+
+    try:
+        nums = [1, 2, 3]
+        print(nums[5])
+    except IndexError:
+        print("Index error.")
+    finally:
+        print("Done.")
+
+    print("Ending The Code Challenge")
+
+
+main()
