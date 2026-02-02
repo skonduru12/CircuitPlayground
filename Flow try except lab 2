@@ -1,0 +1,12 @@
+def main():
+    print("Starting The Code Challenge")
+    try:
+        x = 42
+        print("Starting Variable Assignment Part Of Code Challenge")
+        print(x)
+        print("Ending Variable Assignment Part Of Code Challenge")
+    except Exception as e:
+        print("An error occurred:", e)
+    print("Ending The Code Challenge")
+
+main()
