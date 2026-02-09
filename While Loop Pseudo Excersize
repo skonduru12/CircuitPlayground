@@ -1,0 +1,28 @@
+print("Starting Code Challenge")
+
+while True:
+    user_input = input("Enter an integer number 20 or greater > ")
+    if user_input.isdigit():
+        user_number = int(user_input)
+        if user_number >= 20:
+            print(f"Your number {user_number} is a valid Integer 20 or greater. Thanks")
+            break
+        else:
+            print("The number must be 20 or greater. Try again.")
+    else:
+        print("That is not an integer. Try again.")
+
+count = 0
+
+print("Starting While Loop - Print Count Variable")
+print(f"The user input started as {user_number}")
+
+while user_number > 1:
+    user_number = user_number / 2
+    count += 1
+    print(f"The current value of the user input after some math is {user_number}")
+    print(f"The while loop has looped {count} time{'s' if count > 1 else ''}")
+
+print("Ending While Loop")
+print(f"The While Loop, looped a total of {count} times")
+print("Ending Code Challenge")
