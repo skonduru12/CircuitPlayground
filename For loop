@@ -1,0 +1,22 @@
+def main():
+    print("Starting The Code Challenge")
+
+    print("Starting Example 1")
+    for i in range(5):
+        print(i)
+    print("Ending Example 1")
+
+    print("Starting Example 2")
+    for x in range(10, 0, -2):
+        print(x)
+    print("Ending Example 2")
+
+    print("Starting Example 3")
+    word = "Python"
+    for letter in word:
+        print(letter)
+    print("Ending Example 3")
+
+    print("Ending The Code Challenge")
+
+main()
