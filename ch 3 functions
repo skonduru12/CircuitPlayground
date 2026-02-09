@@ -1,0 +1,12 @@
+print(type(42))
+print(len("hello world"))
+print(max("hello"))
+
+def add(x, y):
+    return x + y
+
+def usd_to_cad(usd):
+    return usd * 1.27
+
+print(add(5, 2))
+print(usd_to_cad(10))
