@@ -1,0 +1,26 @@
+def main():
+    print("Starting The Code Challenge")
+
+    print("Starting Example 1")
+    count = 0
+    while count < 5:
+        print(count)
+        count += 1
+    print("Ending Example 1")
+
+    print("Starting Example 2")
+    number = 10
+    while number > 0:
+        print(number)
+        number -= 2
+    print("Ending Example 2")
+
+    print("Starting Example 3")
+    user_input = ""
+    while user_input != "stop":
+        user_input = input("Type 'stop' to end: ")
+    print("Ending Example 3")
+
+    print("Ending The Code Challenge")
+
+main()
