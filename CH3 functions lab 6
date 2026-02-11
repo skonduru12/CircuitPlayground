@@ -1,0 +1,27 @@
+# Challenge 1
+def my_math(x, y):
+    z = x + y
+    return z
+
+# Challenge 2
+def multiply(x, y):
+    return x * y
+
+# Challenge 3
+def add_and_adjust(x, y):
+    result = x + y
+    if result % 2 != 0:
+        result = result + 1
+    return result
+
+def main():
+    my_num_1 = 5
+    my_num_2 = 2
+    sum_result = my_math(my_num_1, my_num_2)
+    print("The sum of", my_num_1, "+", my_num_2, "=", sum_result)
+
+    print(multiply(4, 3))
+    print(add_and_adjust(3, 4))
+    print(add_and_adjust(2, 4))
+
+main()
