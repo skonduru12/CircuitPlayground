@@ -1,0 +1,24 @@
+numbers = [5, 2, 9, 1, 7]
+
+slice_example = numbers[1:4]
+print("Slicing:", slice_example)
+
+numbers[0] = 10
+print("Updated list:", numbers)
+
+numbers.append(3)
+print("After append:", numbers)
+
+more_numbers = [8, 6]
+combined = numbers + more_numbers
+print("After concatenation:", combined)
+
+combined.sort()
+print("After sort:", combined)
+
+removed_item = combined.pop()
+print("Popped item:", removed_item)
+print("After pop:", combined)
+
+del combined[0]
+print("After del:", combined)
