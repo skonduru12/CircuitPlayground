@@ -1,0 +1,26 @@
+name = input("Enter your name: ")
+print("Welcome,", name)
+
+age = input("Enter your age: ")
+age_int = int(age)
+print("Next year you will be", age_int + 1)
+print("Your age is of type:", type(age_int))
+
+number = int(input("Enter a negative or positive number: "))
+print("The absolute value is:", abs(number))
+
+favorite_word = input("Enter your favorite word: ")
+print("Your word has", len(favorite_word), "characters")
+
+height = float(input("Enter your height in meters (example: 1.75): "))
+print("Your height rounded to 1 decimal place is:", round(height, 1))
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+print("The largest number is:", max(num1, num2, num3))
+print("The smallest number is:", min(num1, num2, num3))
+
+difference = abs(max(num1, num2, num3) - min(num1, num2, num3))
+print("The difference between the largest and smallest number is:", difference)
